@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Landing Page</title>
+    <style>
+        * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header h1 {
+    margin-top: 10px;
+    font-size: 2.5rem;
+}
+
+.section {
+    padding: 50px;
+    text-align: center;
+}
+
+#about, #services {
+    background: #f4f4f4;
+}
+
+.service-box {
+    display: inline-block;
+    width: 30%;
+    padding: 20px;
+    margin: 20px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer p {
+    margin: 0;
+}
+</style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <h1>Welcome to My Landing Page</h1>
+    </header>
+
+    <section id="home" class="section">
+        <h2>Home</h2>
+        <p>This is the main section of the landing page. Add your welcome text here.</p>
+    </section>
+
+    <section id="about" class="section">
+        <h2>About</h2>
+        <p>Share some information about your product or business.</p>
+    </section>
+
+    <section id="services" class="section">
+        <h2>Services</h2>
+        <div class="service-box">
+            <h3>Service 1</h3>
+            <p>Details about service 1.</p>
+        </div>
+        <div class="service-box">
+            <h3>Service 2</h3>
+            <p>Details about service 2.</p>
+        </div>
+        <div class="service-box">
+            <h3>Service 3</h3>
+            <p>Details about service 3.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2024 My Landing Page. All rights reserved.</p>
+    </footer>
+</body>
+</html>
